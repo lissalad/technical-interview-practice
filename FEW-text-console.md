@@ -1,5 +1,7 @@
 # [Question](https://github.com/Make-School-Labs/interview-questions/blob/master/interview-questions.md)  
 
+## 12. If we run the code snippet below what will appear in the console?
+
 ```
 var text = 'outside';
 function logIt() {
