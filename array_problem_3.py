@@ -5,7 +5,7 @@
 # CLARIFYING:
 # can I use sort()? array length less than k? negative input? does order of returned
 #
-#
+# PSEUDOCODE:
 # check if k is 0
 # check if array a length is greater than k, or equal to
 #

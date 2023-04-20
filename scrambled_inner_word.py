@@ -6,6 +6,7 @@
 # what if the word is two letters or less? assuming we get a string? can we use random?
 # could it possibly be returned the same?
 
+# PSEUDOCODE:
 # check length of word is greater than 2, if 3, return same word
 # remove and store first letter and last in their own variables
 # use random.shuffle() to scramble inner letters
