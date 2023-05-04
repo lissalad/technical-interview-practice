@@ -16,8 +16,8 @@
 # Can we use the built in sort function?
 
 # PSEUDOCODE:
-# loop through nums1, STARTING at length of nums2 - 1
-# replace current index with corresponding nums2 value
+# loop through nums1, STARTING at index equal to length of nums2
+# replace current index with corresponding nums2 value, replacing zeros
 # return sorted array
 
 def merge_sorted_array(nums1, nums2):
@@ -32,3 +32,13 @@ def merge_sorted_array(nums1, nums2):
 
 
 merge_sorted_array([1, 2, 3, 0, 0, 0], [2, 5, 6])
+
+# FURTHER:
+# This is not the most efficient method.
+# I divided the problem into two steps. First I merged the lists into one,
+# then I sorted them. Using the built in sort() function is probably not allowed.
+# It is definitely not efficient, and unneccessary since the two lists
+# we are given are already sorted.
+# To improve this, I could use two independent while loops instead.
+# Then I could manually insert the values of nums2 into nums1 in the correct
+# order from the start, all in one step.
