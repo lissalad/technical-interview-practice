@@ -1,4 +1,4 @@
-# QUESTION:
+# PROBLEM:
 # Given a sorted array of distinct integers and a target value,
 # return the index if the target is found.
 # If not, return the index where it would be if it were inserted in order.
@@ -26,6 +26,7 @@ print(search_input_position([1, 3, 5, 6], 2))
 
 # FURTHER:
 # While simple and easy to read, this solution is not the most efficient.
+# It does not have O(log n) runtime complexity.
 # Using a binary search would allow for the input position to be found much
 # more efficiently. With each repetition, half of the possible answers
 # would be ruled out.
