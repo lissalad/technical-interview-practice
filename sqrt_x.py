@@ -69,3 +69,16 @@ print(sqrt(143))
 # I would instead be ruling out half of the possibilities with each cycle.
 # Recursion would allow me to repeat this process deeper into the halves
 # until the square root is found.
+
+# def happy_number(num):
+#     sqr_sum = 0
+
+#     while num > 9:
+#         digit = num // 10
+#         print(digit)
+#         sqr_sum += digit * digit
+
+#     if sqr_sum == 1:
+#         return True
+
+#     return False
