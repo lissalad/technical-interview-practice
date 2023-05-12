@@ -22,19 +22,19 @@ import math
 
 
 def sqrt(x):
-    if(x < 0):
+    if (x < 0):
         return "NEGATIVE INPUT!"
 
-    if(math.floor(x) != x):
-        return("NON INTEGER INPUT!")
+    if (math.floor(x) != x):
+        return ("NON INTEGER INPUT!")
 
-    if(x == 0):
+    if (x == 0):
         return 0
 
-    if(x < 4):
+    if (x < 4):
         return 1
 
-    if(x == 4):
+    if (x == 4):
         return 2
 
     root = math.floor((x / 2) - 1)

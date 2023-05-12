@@ -42,7 +42,7 @@ print(plus_one([9, 9, 9]))
 
 # FURTHER:
 # This is not most efficient way to solve this problem.
-# With another stratedgy, I could avoid unneccessary looping or converting of types.
+# With another strategy, I could avoid unneccessary looping or converting of types.
 # First, I would add 1 to the last digit.
 # If this value were then above 9, I change it to 0, and repeat the steps on the next digit. I would repeat
 # this until a digit does not go above 9.
